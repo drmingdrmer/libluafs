@@ -1,0 +1,43 @@
+
+libluafs
+------
+
+  This package contains a simple filesystem extension library for
+ Lua 5.0 which is implemented and exported from a C shared library
+ (.so).
+
+  It may be installed system-wide and used by your Lua scripts with
+ ease.
+
+
+
+Installation
+------------
+
+  Compile and install the library with
+
+    make
+
+    make install  (As root)
+
+  This will install the library into the directory /usr/lib/lua/5.0 
+ along with a helper package into /usr/share/lua50.
+
+
+
+Usage
+-----
+
+  Once the library has been installed you can use it from your Lua
+ scripts easily.
+
+  Please see the documentation included in docs/ for details.
+
+
+
+Demonstration Code
+------------------
+
+  The package comes complete with several small examples inside the
+ API documentation which you can find beneath the docs/ directory.
+
